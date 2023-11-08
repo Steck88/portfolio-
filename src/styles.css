@@ -1,0 +1,24 @@
+header{
+    background-color: #808080;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: #5A5A5A;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+}
+nav>a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+body{
+    background-color: #808080;
+}
+section{
+    color: white;
+}
