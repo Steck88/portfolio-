@@ -1,24 +1,75 @@
-header{
+/* Global Styles */
+body {
+    background-color: #808080;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Header Styles */
+header {
     background-color: #808080;
     color: white;
     text-align: center;
+    padding: 20px 0;
 }
-nav{
+
+.logo {
+    width: 50px;
+}
+
+/* Navigation Styles */
+nav {
     background-color: #5A5A5A;
+    text-align: center;
+    padding: 10px 0;
 }
-nav>a{
+
+nav > a {
     color: white;
     text-decoration: none;
-    text-align: center;
     font-size: larger;
+    padding: 15px;
+    display: inline-block;
 }
-nav>a:hover{
+
+nav > a:hover {
     color: blue;
     text-decoration: underline;
 }
-body{
-    background-color: #808080;
+
+/* Section Styles */
+section {
+    padding: 20px;
 }
-section{
+
+section a {
+    
     color: white;
+}
+
+section a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav > a {
+        padding: 10px;
+    }
+}
+
+/* Transition Effects */
+nav > a, section a, footer {
+    transition: color 0.3s ease;
 }
